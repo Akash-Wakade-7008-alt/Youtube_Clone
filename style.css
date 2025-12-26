@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  display: flex;
+  margin-bottom: 1vh;
+}
+
+#box1 {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 700px;
+  margin-left: 1vw;
+  flex: 1;
+}
+
+#box2 {
+  flex: 5;
+  overflow-y: auto;
+  /* overflow-x: hidden; */
+  height: 700px;
+}
+
+#youtube-img {
+  height: 5vh;
+}
+
+header {
+  display: flex;
+}
+
+
+#create {
+  background-color: black;
+  display: flex;
+  width: 12vw;
+  gap: 2.5vw;
+  height: 7vh;
+  margin-left: 8vw;
+  border: none;
+
+}
+
+
+
+#scroller {
+  height: 5vh;
+  width: 75vw;
+  overflow-x: auto;
+  display: flex;
+  gap: 3vw;
+  margin-top: 2.5vh;
+}
+
+.scroll {
+  color: white;
+  border-radius: 8px;
+  height: 3.5vh;
+  padding: 3px;
+}
+
+.scroll:hover {
+  background-color: white;
+  color: black;
+}
+
+#Iframe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  height: 50vh;
+}
+
+#Iframe-img {
+  margin-top: 3vh;
+}
+
+#reels {
+  display: flex;
+  overflow-x: auto;
+  /* overflow-y: hidden; */
+  gap: 1vw;
+  margin-top: -5vh;
+}
+
+.reel-img {
+  height: 55vh;
+  margin-top: 7vh;
+}
+
+.buy-rent{
+  background-color: rgb(3, 165, 229);
+  border: 1px solid black;
+  height: 6vh;
+  width: 9vw;
+  border-radius: 25px;
+  border-color: black;
+  margin-left: 36vw;
+  margin-top: 1.2vh;
+  
+}
+
+.buy-rent:hover{
+  transform: scale(1.1);
+}
+
+#movies{
+  display: flex;
+  overflow-x: auto;
+}
